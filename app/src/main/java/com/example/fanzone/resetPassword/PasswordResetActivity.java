@@ -4,7 +4,7 @@ import com.example.fanzone.R;
 import com.example.fanzone.databinding.ActivityPasswordResetBinding;
 import com.example.fanzone.utils.BaseActivityBinding;
 
-public class passwordResetActivity extends BaseActivityBinding<ActivityPasswordResetBinding> {
+public class PasswordResetActivity extends BaseActivityBinding<ActivityPasswordResetBinding> {
     @Override
     protected ActivityPasswordResetBinding inflateBinding() {
         return ActivityPasswordResetBinding.inflate(getLayoutInflater());
