@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FanZone</string>
+
+    <string name="myPref">SharedPreference</string>
+    <string name="my_map_api_key">AIzaSyDlTW4pfdQ6zSiMTI3N-U8eI8DqrlLYzGw</string>
+    <string name="slider_text"> <b>No 1 Job App in Nigeria.\n</b>
+ We are committed to accurate high\n
+ quality jobs by indexing thousands\n
+ of jobs from employers.</string>
+    <string name="find_the_job_for_you">Find the job for you</string>
+    <string name="job_creation">Job Creation</string>
+    <string name="we_create_an_efficient_platform_that_connects_job_seekers_with_potential_employers_giving_both_parties_the_opportunity_to_connect">We create an efficient platform that\n connects job seekers with potential\n employers giving both parties the\n opportunity to connect.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number_n_verification">Phone Number \n Verification.</string>
+    <string name="submit">Submit</string>
+    <string name="we_would_send_you_a_one_time_n_code_on_your_phone_number">We would send you a One Time \n code on your Phone number</string>
+    <string name="a_4_digit_code_has_been_sent_to_your_email_address">A 4 digit code has been sent \n to your Email Address</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="didn_t_receive_the_verification_otp">Didn\'t receive the verification OTP?</string>
+    <string name="resend_otp">Resend OTP?</string>
+
+
+</resources>

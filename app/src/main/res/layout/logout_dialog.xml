@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/bottom_sheet_container"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        app:cardBackgroundColor="#FC4646"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="1dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:fontFamily="@font/dmsansbold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FC4646"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to leave?"
+        android:fontFamily="@font/dmsansmedium"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="#524B6B"
+        android:textSize="12sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_log_out_yes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_50dp"
+        android:layout_marginStart="@dimen/dimens_16dp"
+        android:layout_marginTop="@dimen/dimens_30dp"
+        android:layout_marginEnd="@dimen/dimens_16dp"
+        android:background="@drawable/log_out_yes"
+        android:gravity="center"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_log_out_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/log_out_cancel"
+        android:gravity="center"
+        android:text="Cancel"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+</LinearLayout>
