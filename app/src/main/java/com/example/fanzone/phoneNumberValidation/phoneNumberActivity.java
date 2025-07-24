@@ -12,7 +12,7 @@ public class phoneNumberActivity extends BaseActivityBinding<ActivityPhoneNumber
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.activity_phonenumber;
+        return R.layout.activity_phone_number;
     }
 
     @Override
